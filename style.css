@@ -1,4 +1,12 @@
-h1{
+header{
+    color: white;
     background-color: #004175;
+    padding: 1rem;
+    border-bottom: .25rem solid;
     border-color: #89DEEF;
+    font-family: "Oswald";
+}
+
+ul {
+    list-style: none
 }
