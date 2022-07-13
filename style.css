@@ -23,8 +23,9 @@ h2 {
 }
 
 li {
+    font-family: "Open Sans"
     list-style: none;
     display: inline;
     background-color: #89DEEF;
-    border-radius: 5em;
+    border-radius: 400px;
 }
