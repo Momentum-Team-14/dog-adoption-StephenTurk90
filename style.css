@@ -6,6 +6,9 @@ header{
     border-color: #89DEEF;
     font-family: "Oswald";
 }
+body {
+    font-family: "Oswald";
+}
 
 li {
     list-style: none;
