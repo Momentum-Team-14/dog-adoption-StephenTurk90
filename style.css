@@ -1,6 +1,4 @@
-<link
-  href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700"
-  rel="stylesheet"
-/>
-
-#The background color is #004175 and the border color is #89DEEF
+h1{
+    background-color: #004175;
+    border-color: #89DEEF;
+}
