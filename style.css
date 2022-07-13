@@ -8,5 +8,6 @@ header{
 }
 
 ul {
-    list-style: none
+    list-style: none;
+    display: inline;
 }
