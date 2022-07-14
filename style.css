@@ -18,7 +18,7 @@ body {
     padding: white;
 }
 
-.dogs {
+#dog {
     display: flex;
     justify-content: space-evenly;
 }
@@ -27,8 +27,12 @@ h2 {
     font-family: "Oswald"
 }
 
-.dog-picture {
-    width: 20%;
+.dog-profile {
+    width: 20rem;
+}
+
+.dog-picture img {
+    width: 100%;
 }
 
 
@@ -40,6 +44,7 @@ li {
     border-radius: 1rem;
     padding: .25rem 0.5rem;
 }
+
 footer {
     font-family: "Open Sans";
     color: white;
