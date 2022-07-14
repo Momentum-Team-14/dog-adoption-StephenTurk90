@@ -7,22 +7,38 @@ h1 {
     font-family: "Open Sans";
 }
 body {
-    font-family: "Open Sans";
-    padding: white;
+    margin: 1rem;
+}
+
+p {
+    line-height: 1.5;
+    margin: 2em;
 }
 
 .dog {
     display: flex;
-    justify-content: space-evenly;
+    align-content: flex-start;
+    justify-content: flex-start;
+    column-gap: 1em;
+    margin: 0px;
+}
+
+h2 {
+    margin: 2rem;
+}
+
+p:first-line {
+    margin: 2rem;
 }
 
 .dog-names h2 {
     font-family: "Oswald"
+    margin: 0;
 }
 
 .dog-profile {
     width: 20rem;
-    padding: 
+    padding: 1rem;
 }
 
 .dog-picture img {
@@ -30,19 +46,28 @@ body {
 }
 
 .dog-lists {
+    font-family: "Open Sans";
+    line-height: 1rem;
+    /* border-collapse: separate; */
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
-    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 6px;
+    row-gap: 4px;
+    margin: 0;
     padding: 0;
-}
+} 
 
 li {
-    font-family: "Open Sans";
-    line-height: 2rem;
     background-color: #89DEEF;
     border-radius: 1rem;
-    padding: .25rem 0.5rem;
+    padding: .25rem 0.25rem;
+}
+
+ul {
+    display: flex;
+    font-family: "Open Sans";
 }
 
 footer {
