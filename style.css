@@ -28,7 +28,7 @@ p:first-line {
     top: 0;
     display: flex;
     align-content: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     column-gap: 1em;
     margin: 1rem;
 }
@@ -49,12 +49,10 @@ p:first-line {
 .dog-lists {
     font-family: "Open Sans";
     line-height: 1rem;
-    /* border-collapse: separate; */
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
-    column-gap: 6px;
+    column-gap: 4px;
     row-gap: 4px;
     margin: 0;
     padding: 0;
@@ -71,12 +69,8 @@ ul {
     font-family: "Open Sans";
 }
 
-.Donate {
+footer {
     font-family: "Open Sans";
     color: white;
-    linear-gradient(
-        #A6A9F0,
-    ),
-    url(starter_files/images/Donate.jpg)
+    background-color: #A6A9F0;
 }
-
