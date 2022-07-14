@@ -18,6 +18,11 @@ body {
     padding: white;
 }
 
+.dogs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 h2 {
     font-family: "Oswald"
 }
