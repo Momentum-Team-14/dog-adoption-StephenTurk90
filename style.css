@@ -1,4 +1,4 @@
-h1{
+h1 {
     color: white;
     background-color: #004175;
     padding: 2rem;
@@ -16,7 +16,7 @@ body {
     justify-content: space-evenly;
 }
 
-h2 {
+.dog-names h2 {
     font-family: "Oswald"
 }
 
@@ -32,10 +32,13 @@ h2 {
     flex-wrap: wrap;
 }
 
-.dog-lists li {
+.dog-lists {
+    list-style: none;
+}
+
+li {
     font-family: "Open Sans";
     line-height: 2rem;
-    list-style: none;
     display: inline;
     background-color: #89DEEF;
     border-radius: 1rem;
