@@ -27,6 +27,11 @@ h2 {
     font-family: "Oswald"
 }
 
+.dog-picture {
+    width: 20%;
+}
+
+
 li {
     font-family: "Open Sans";
     list-style: none;
