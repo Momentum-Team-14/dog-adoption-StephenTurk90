@@ -70,11 +70,9 @@ ul {
 }
 
 footer {
-    font-family: "Open Sans";
-    color: white;
-    background-color: #A6A9F0;
+    font-family: "Oswald";
+    color: black;
 }
-
 
 .tinted-image-1 {
 
@@ -83,8 +81,8 @@ footer {
 
     background:
         linear-gradient(
-            rgba(255, 0, 0, 0.45), 
-            rgba(255, 0, 0, 0.45)
+            rgba(85, 85, 240, 0.45), 
+            rgba(85, 85, 240, 0.45)
     ),
 url(starter_files/images/donate.jpg)
 }
@@ -95,8 +93,8 @@ url(starter_files/images/donate.jpg)
 
     background:
         linear-gradient(
-            rgba(255, 0, 0, 0.45), 
-            rgba(255, 0, 0, 0.45)
+            rgba(85, 85, 240, 0.45), 
+            rgba(85, 85, 240, 0.45)
     ),
 url(starter_files/images/volunteer.jpg)
 }
@@ -108,8 +106,8 @@ url(starter_files/images/volunteer.jpg)
 
     background:
         linear-gradient(
-            rgba(255, 0, 0, 0.45), 
-            rgba(255, 0, 0, 0.45)
+            rgba(85, 85, 240, 0.45), 
+            rgba(85, 85, 240, 0.45)
     ),
 url(starter_files/images/location.png)
 }
