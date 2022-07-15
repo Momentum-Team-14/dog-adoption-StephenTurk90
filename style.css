@@ -1,22 +1,27 @@
+body {
+    display: center;
+}
+
 header {
     color: white;
     background-color: #004175;
-    padding: 2rem;
+    padding: 1rem;
     border-bottom: .25rem solid;
     border-color: #89DEEF;
     font-family: "Open Sans";
     font-size: 24pt;
     font-weight: bold;
+    display: flex;
 }
 h1 {
     font-family: "Open Sans";
-    margin: 2rem;
+    margin: 1rem;
     top: 0;
 }
 
 p {
     line-height: 1.5;
-    margin: 0 0 0 2em;
+    margin: 0 0 0 1em;
     font-family: "Open Sans";
 }
 
