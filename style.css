@@ -59,6 +59,7 @@ p:first-line {
     row-gap: 4px;
     margin-top: 0;
     padding: 0;
+    margin-bottom: 0;
 } 
 
 li {
@@ -77,21 +78,19 @@ ul {
 
 footer {
     width: 100%;
-    height: 60vw;
+    height: 20vw;
     display: flex;
-    align-items: center;
+    align-items: flex;
     font-size: 2.5rem;
     font-family: "Oswald";
     color: white;
-    margin-top: 0;
-    justify-items: center;
     flex: 1 1 auto;
 }
 
 .donate {
 
     width: 600px;
-    height: 400px;
+    height: 300px;
 
     background:
         linear-gradient(
@@ -105,7 +104,7 @@ url(starter_files/images/donate.jpg);
 .volunteer {
 
     width: 600px;
-    height: 400px;
+    height: 300px;
 
     background:
         linear-gradient(
@@ -120,7 +119,7 @@ url(starter_files/images/volunteer.jpg);
 .location {
 
     width: 600px;
-    height: 400px;
+    height: 300px;
 
     background:
         linear-gradient(
@@ -138,4 +137,5 @@ url(starter_files/images/location.png);
     align-items: center;
     background-position: center;
     background-size: cover;
+    margin-bottom:0;
 }
